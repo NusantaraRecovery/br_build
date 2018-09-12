@@ -663,7 +663,8 @@ function lunch()
     export BR_MAINTAINER="ZHANtech™" # OrangeFox Maintainer
     if [ -z "$BR_MAINTAINER" ]; then
        export BR_MAINTAINER="ZHANtech™" # Maintainer
-
+    fi
+    
     echo
 
     fixup_common_out_dir
