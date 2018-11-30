@@ -661,7 +661,7 @@ function lunch()
     export TARGET_ARCH=$(get_build_var TARGET_ARCH)
 
     if [ -z "$NR_MAINTAINER" ]; then
-        export BR_MAINTAINER="AyraHikari" # Maintainer
+        export NR_MAINTAINER="Unknown" # Maintainer
     fi
     
     echo
