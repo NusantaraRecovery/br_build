@@ -653,7 +653,7 @@ function lunch()
     fi
     export CUSTOM_BUILD
 
-    export NR_OFFICIAL_CH=$(get_build_var BR_OFFICIAL)
+    export NR_OFFICIAL_CH=$(get_build_var NR_OFFICIAL)
     export TARGET_PRODUCT=$product
     export TARGET_BUILD_VARIANT=$variant
     export TARGET_PLATFORM_VERSION=$(get_build_var TARGET_PLATFORM_VERSION)
